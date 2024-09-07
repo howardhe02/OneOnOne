@@ -1,0 +1,125 @@
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.full {
+    min-height: 100vh;
+}
+
+.col-blue {
+    color: #4d5fd2;
+    border-color: #4d5fd2;
+}
+
+@media (width >= 768px) {
+    .med-full {
+        min-height: 100vh;
+    }
+    .line {
+        border-right: 4px solid black;
+    }
+}
+
+.c-text {
+    text-align: center;
+}
+
+.c-item {
+    display: grid;
+	align-items: center;
+}
+
+.reg {
+    color: white;
+    background-color: #4d5fd2;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+    margin: 10px;
+}
+  
+.log {
+    color: #4d5fd2;
+    background-color: white;
+    border: 1px solid #4d5fd2;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 10px;
+    width: 200px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+    margin: 10px;
+  }
+  
+.log:hover, .reg:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: #4d5fd2;
+}
+
+.blur {
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+  }
+
+.sub {
+  color: #4d5fd2;
+  background-color: white;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  width: 100px;
+  padding: 5px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+  margin: 0;
+}
+
+.sub:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: #4d5fd2;
+}
+
+
+#closeButton {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    color: #4d5fd2;
+}
+
+#closeButton:hover {
+    color: #000000;
+}
+
+#closeButton > p {
+    font-size: 50px;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.errorLabel {
+    color: red;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    height: 15px;
+}

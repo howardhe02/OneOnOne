@@ -1,0 +1,92 @@
+.date-header {
+    border-right: 1px solid white;
+	background-color: #4d5fd2;
+    color: white;
+	font-size: .875em;
+	font-weight: 700;
+	justify-self: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.btn-header {
+    background-color: #4d5fd2;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exit{
+    height: 60.15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-day{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.table{
+    all:unset;
+}
+.day-header{
+    color:white;
+}
+
+.selected{
+    color: #FFFF00;
+}
+
+.date-btn{
+    width: 40%;
+    height: 80%;
+    border-radius: 5px;
+}
+.back-btn{
+    margin-bottom: 0;
+    color: white;
+}
+
+
+
+.timetable{
+    grid-template-columns: repeat(8, 1fr);
+    height: 417px;
+    overflow-y: scroll;
+}
+
+.timetable::-webkit-scrollbar{
+    width: 5px;
+}
+
+tr{
+    height: 35px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.exit{
+    vertical-align: center;
+}
+
+.back:focus{
+    border: none;
+}
+
+.time{
+    font-size: smaller;
+}
+
+.dropdown{
+    border-top: 1px solid #e0e0e0;
+}
+
+.menus{
+    border-left: 1px solid #e0e0e0;
+}

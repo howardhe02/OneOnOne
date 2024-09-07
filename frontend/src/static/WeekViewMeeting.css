@@ -1,0 +1,15 @@
+.meeting-cell{
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    max-height: 35px;
+    overflow: hidden;
+    font-size: 12px;
+    margin:0;
+    padding: 0;
+}
+.display-name{
+    max-height: 34px;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
